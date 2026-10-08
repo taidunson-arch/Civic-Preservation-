@@ -1,0 +1,30 @@
+CivicPreserve 0.1.0-pilot — verification record, 2026-10-06
+
+Platform: Windows; Python 3.12; pandas 3.0.1; openpyxl 3.1.5; PyYAML 6.0.3.
+Source base: fb3eb3c80a95b076980f1ddc8697e1b965eac7be (agency-validation).
+
+Inherited suite before changes: 172 passed, 0 failed, 0 skipped.
+Expanded regression suite: 179 passed, 0 failed, 0 skipped.
+Final targeted review rerun after source-event display change: 7 passed, 0 failed, 0 skipped.
+Skill metadata validator: passed after shortening inherited oversized description.
+
+New regression coverage:
+- Completed pipeline review with matching case database.
+- Changed, added, and removed run files; refusal to reseal changed outputs.
+- Failed runs and disagreeing risk artifacts.
+- Embedded script markup in property names.
+- Duplicate JSON keys and nonfinite JSON values.
+- Case database unrelated to the selected run.
+- Relative output paths resolved from the command caller's directory.
+
+Browser checks: actual generated review loaded; 22 synthetic properties, 56 open cases;
+search narrowed to one matching property; property drilldown displayed assessment/case sections;
+readiness filter BLOCKED returned 4 properties; no browser error/warning logs at that check.
+The synthetic pipeline completed with SQLite case persistence and review export.
+
+This verifies a local pilot candidate. It is not real-HFA acceptance, a penetration test,
+formal accessibility conformance, a dependency vulnerability audit, legal review, model
+calibration, multiuser identity enforcement, or a production readiness certification.
+
+The package includes direct dependency versions, not a hash-locked transitive environment.
+Raw test logs and extracted-package verification accompany the downloadable output separately.
