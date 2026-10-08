@@ -1,0 +1,33 @@
+property_id,property_name,event_type,event_family,event_date,months_out,urgency,basis,source,status,note
+addr:d74ea5ca67b2,Oregon City View Manor,SECTION_18_APPLICATION,PRESSURE,2024-10-31,-23.2,OCCURRED,RECORDED,HUD disposition approval per HACC OCVM page,OCCURRED,HUD approved Section 18 disposition and TPVs for all 100 households
+addr:d74ea5ca67b2,Oregon City View Manor,SECTION_18_DISPOSITION_SALE,PRESSURE,2026-2027 (ESTIMATED),,FUTURE,ESTIMATED,"HACC: relocation likely beginning 2026, sale after relocation",FUTURE,Owner cliff; date not fixed by any instrument
+addr:d74ea5ca67b2,Oregon City View Manor,AGENCY_INFO_REQUEST_HACC,AGENCY_DEADLINE,2026-11-07,1.0,CRITICAL,DERIVED,analyst: as_of + 30 days,FUTURE,"Request disposition timeline, sale terms, affordability covenant, TPV count"
+addr:e403e8c0d110,Our Apartment,HAP_EXPIRATION,PRESSURE,2027-01-24,3.5,CRITICAL,REPORTED,"OHCS Oregon Affordable Housing Inventory p9yn-ftai, export 2026-10-02 (bundled in repo)",FUTURE,Annual HAP date; renewal expected unless CA log shows otherwise
+addr:e403e8c0d110,Our Apartment,HAP_OPTOUT_NOTICE_DEADLINE,AGENCY_DEADLINE,2026-01-24,-8.4,OVERDUE,DERIVED,expiration - 12 months (24 CFR 402.8 owner notice),PASSED,No opt-out notice known at the CA — confirm
+addr:e403e8c0d110,Our Apartment,HAP_OPTOUT_PACKAGE_DUE,AGENCY_DEADLINE,2026-09-26,-0.4,OVERDUE,DERIVED,expiration - 120 days (renewal package),PASSED,Confirm HUD-9624 renewal request on file
+addr:0db908ec7884,Rosewood Terrace,SOFT_PROGRAM_END,PRESSURE,2029-04-01,29.8,APPROACHING,REPORTED,"OHCS Oregon Affordable Housing Inventory p9yn-ftai, export 2026-10-02 (bundled in repo) OAHTC_Expiration_Date",FUTURE,OAHTC pass-through ends
+addr:0db908ec7884,Rosewood Terrace,HAP_EXPIRATION,PRESSURE,2038-05-31,139.7,BEYOND,REPORTED,"OHCS Oregon Affordable Housing Inventory p9yn-ftai, export 2026-10-02 (bundled in repo) HUD_MF_Expiration_Date",FUTURE,Long-term HAP; verify renewal term at CA
+addr:0db908ec7884,Rosewood Terrace,HAP_OPTOUT_NOTICE_DEADLINE,AGENCY_DEADLINE,2037-05-31,127.7,BEYOND,DERIVED,expiration - 12 months,FUTURE,
+addr:0db908ec7884,Rosewood Terrace,LIHTC_EXTENDED_USE_END,PRESSURE,2049-01-01,266.8,BEYOND,REPORTED,"OHCS Oregon Affordable Housing Inventory p9yn-ftai, export 2026-10-02 (bundled in repo) LIHTC_4_Expiration_Date",FUTURE,withdrawal anchor
+addr:0db908ec7884,Rosewood Terrace,PUSH_WINDOW_PREP,AGENCY_DEADLINE,2046-01-01,230.8,BEYOND,DERIVED,anchor - 36 months (internal prep),FUTURE,
+addr:71b123dcde59,Kingsberry Heights,LIHTC_EXTENDED_USE_END,PRESSURE,2044-01-01,206.8,BEYOND,REPORTED,"OHCS Oregon Affordable Housing Inventory p9yn-ftai, export 2026-10-02 (bundled in repo) LIHTC_9_Expiration_Date",FUTURE,Verify — Ambiguous: conflicts with a standard 30-year term
+addr:71b123dcde59,Kingsberry Heights,LIHTC_EXTENDED_USE_END (alt),PRESSURE,2026-12-31,2.8,CRITICAL,DERIVED,1996 placed in service + 15-year compliance + 15-year extended use (IRC 42(h)(6)) — alternative parse,FUTURE,Stored in alt_dates; forces 0.40 multiplier
+addr:71b123dcde59,Kingsberry Heights,LIHTC_COMPLIANCE_END (Year 15),PRESSURE,2010-12-31,-189.2,OCCURRED,DERIVED,1996 + 15 years,OCCURRED,For-profit owner past Year 15
+addr:71b123dcde59,Kingsberry Heights,LURA_VERIFICATION_DUE,AGENCY_DEADLINE,2026-11-07,1.0,CRITICAL,DERIVED,analyst: as_of + 30 days,FUTURE,Read the recorded Declaration of Land Use Restrictive Covenants; check QC and notice logs
+new:newell-creek,Newell Creek / Stone Creek,LIHTC_EXTENDED_USE_END (alt),PRESSURE,2027-12-31,14.8,URGENT,DERIVED,1997 placed in service + 30 years — unverified; property may already be released,FUTURE,Verify — Program Status
+new:newell-creek,Newell Creek / Stone Creek,PROGRAM_STATUS_VERIFICATION_DUE,AGENCY_DEADLINE,2026-11-07,1.0,CRITICAL,DERIVED,analyst: as_of + 30 days,FUTURE,OHCS compliance record + recorder search
+new:barclay-hills,Barclay Hills,PROGRAM_STATUS_VERIFICATION_DUE,AGENCY_DEADLINE,2026-11-07,1.0,CRITICAL,DERIVED,analyst: as_of + 30 days,FUTURE,OHCS compliance record; add to inventory
+addr:3708f2c84e34,Meadowlark,PRAC_EXPIRATION,PRESSURE,2025-10-31,-11.2,STALE_CONTRACT_DATE,REPORTED,"OHCS Oregon Affordable Housing Inventory p9yn-ftai, export 2026-10-02 (bundled in repo) HUD_MF_Expiration_Date",STALE_CONTRACT_DATE,No termination evidence; never in OVERDUE totals
+addr:3708f2c84e34,Meadowlark,PRAC_EXPIRATION (next expected),PRESSURE,2026-10-31,0.8,CRITICAL,DERIVED,stale date + 12 months,FUTURE,Confirm renewal with HUD Portland MF
+addr:412f3b8789ff,Fisher Ridge Apartments,PRAC_EXPIRATION,PRESSURE,2026-02-28,-7.3,STALE_CONTRACT_DATE,REPORTED,"OHCS Oregon Affordable Housing Inventory p9yn-ftai, export 2026-10-02 (bundled in repo) HUD_MF_Expiration_Date",STALE_CONTRACT_DATE,
+addr:412f3b8789ff,Fisher Ridge Apartments,PRAC_EXPIRATION (next expected),PRESSURE,2027-02-28,4.7,CRITICAL,DERIVED,stale date + 12 months,FUTURE,
+addr:412f3b8789ff,Fisher Ridge Apartments,SOFT_PROGRAM_END (HDGP),PRESSURE,2040-08-04,165.9,BEYOND,REPORTED,"OHCS Oregon Affordable Housing Inventory p9yn-ftai, export 2026-10-02 (bundled in repo) HDGP_Expiration_Date",FUTURE,withdrawal anchor
+addr:51c65dcdc79c,Oregon City Terrace,LIHTC_COMPLIANCE_END (Year 15),PRESSURE,2036-05-20,115.4,SCHEDULED,DERIVED,compliance start 2021-05-20 + 15 years,FUTURE,
+addr:51c65dcdc79c,Oregon City Terrace,SOFT_PROGRAM_END (OAHTC),PRESSURE,2041-12-01,181.8,BEYOND,REPORTED,"OHCS Oregon Affordable Housing Inventory p9yn-ftai, export 2026-10-02 (bundled in repo)",FUTURE,
+addr:51c65dcdc79c,Oregon City Terrace,LIHTC_EXTENDED_USE_END,PRESSURE,2081-12-31,662.8,BEYOND,REPORTED,"OHCS Oregon Affordable Housing Inventory p9yn-ftai, export 2026-10-02 (bundled in repo)",FUTURE,withdrawal anchor
+addr:52d4b6094e75,Clackamas Heights,SECTION_18_APPLICATION,PRESSURE,2024-10-31,-23.2,OCCURRED,RECORDED,HUD approval fall 2024 per HACC timeline (exact date verify),OCCURRED,
+addr:52d4b6094e75,Clackamas Heights,RESIDENT_RELOCATION_COMPLETE,PRESSURE,2025-08-31,-13.2,OCCURRED,REPORTED,HACC timeline: relocation Jan-Aug 2025,OCCURRED,99 units vacated
+addr:52d4b6094e75,Clackamas Heights,RECAP_CLOSED,PRESSURE,2025-10-31,-11.2,OCCURRED,REPORTED,HACC Nov 2025 update: financing closed late October 2025,OCCURRED,LIHTC + OHCS LIFT + Metro bond + HOME
+addr:52d4b6094e75,Clackamas Heights,CONSTRUCTION_COMPLETION,PRESSURE,2027-10-31,12.7,URGENT,ESTIMATED,HACC: completion anticipated fall 2027,FUTURE,200 units; right of return
+pack,Oregon pack,QAP_2027_PUBLIC_HEARING,AGENCY_DEADLINE,2026-10-12,0.1,CRITICAL,REPORTED,OHCS 2027 QAP draft redline (public hearing date),FUTURE,Preservation set-aside comment window
+pack,Oregon pack,HB4036_REPORT_DUE,AGENCY_DEADLINE,2026-12-01,1.8,CRITICAL,REPORTED,HB 4036 (2026) enrolled: OHCS report to interim committees,FUTURE,

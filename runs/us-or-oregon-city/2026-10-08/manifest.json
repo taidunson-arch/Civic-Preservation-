@@ -1,0 +1,23 @@
+{
+  "as_of": "2026-10-08",
+  "agency_profile": "hfa",
+  "universe": "all",
+  "mandate_file": "mandate.json (Oregon pack; subscription status verify)",
+  "pii_scope": "organization",
+  "book_coverage": "none",
+  "records_classification": "internal",
+  "geography_mode": "city_limits",
+  "files": [
+    "Oregon_City_AtRisk_Report.md",
+    "Oregon_City_AtRisk_Inventory.xlsx",
+    "oregon_city_leads.csv",
+    "oregon_city_events.csv",
+    "summary.json"
+  ],
+  "inputs": [
+    "Oregon_Affordable_Housing_Inventory_20261002.csv",
+    "Portland_TriCounty_Preservation_LoanBook_10yr.xlsx"
+  ],
+  "live_pull_status": "direct downloads blocked (proxy 403); web search summaries used",
+  "generated_by": "analyst-assembled run; deterministic pipeline not executed"
+}

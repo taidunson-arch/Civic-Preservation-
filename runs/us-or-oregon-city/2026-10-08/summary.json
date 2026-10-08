@@ -1,0 +1,154 @@
+{
+  "run": {
+    "as_of": "2026-10-08",
+    "agency_profile": "hfa",
+    "agency_name": "Oregon Housing and Community Services",
+    "market_id": "us-or-oregon-city",
+    "geography": {
+      "mode": "city_limits",
+      "city": "Oregon City",
+      "county_fips": "41005",
+      "resolution": "city string in OHCS inventory (city_name_weak)",
+      "rows_in_inventory": 12,
+      "rows_added": 2
+    },
+    "horizon_years": 10,
+    "universe": "all",
+    "noah_watch": false,
+    "pii_scope": "organization",
+    "book_coverage": "none (degraded run)",
+    "records_classification": "internal working file \u2014 not a public packet",
+    "pipeline_executed": false,
+    "pipeline_note": "flat repo layout; scores reused from bundled 2026-10-04 run or computed by hand against the rubric",
+    "network": {
+      "direct_downloads": "blocked by egress policy (403)",
+      "live_channel": "web search summaries"
+    }
+  },
+  "calendar_header": "RECORDED 2 / REPORTED 12 / DERIVED 6 / ESTIMATED 2 / PROXY 0 / Suppressed 0 / Rejected 0 | helper deadlines 10 (notice arithmetic, verification due dates; not counted above) | agency act-by 10 (next 90 days 6; overdue 2) | stale contract dates flagged 2",
+  "board_totals": {
+    "CRITICAL": {
+      "properties": 2,
+      "units_at_risk": 104,
+      "hap": 4,
+      "prac": 0,
+      "other_ra": 100,
+      "psh": 0,
+      "names": [
+        "Oregon City View Manor",
+        "Our Apartment"
+      ]
+    },
+    "APPROACHING": {
+      "properties": 1,
+      "units_at_risk": 38,
+      "hap": 38,
+      "prac": 0,
+      "other_ra": 0,
+      "psh": 0,
+      "names": [
+        "Rosewood Terrace"
+      ]
+    },
+    "SCHEDULED": {
+      "properties": 1,
+      "units_at_risk": 48,
+      "hap": 47,
+      "prac": 0,
+      "other_ra": 0,
+      "psh": 0,
+      "names": [
+        "Oregon City Terrace"
+      ]
+    },
+    "BEYOND": {
+      "properties": 1,
+      "units_at_risk": 19,
+      "hap": 0,
+      "prac": 18,
+      "other_ra": 0,
+      "psh": 0,
+      "names": [
+        "Fisher Ridge Apartments (fka Morton Road Apts)"
+      ]
+    },
+    "BEYOND (REPORTED 2044 \u2014 Verify \u2014 Ambiguous)": {
+      "properties": 1,
+      "units_at_risk": 260,
+      "hap": 0,
+      "prac": 0,
+      "other_ra": 0,
+      "psh": 0,
+      "names": [
+        "Kingsberry Heights"
+      ]
+    },
+    "stale contract date \u2014 verify": {
+      "properties": 1,
+      "units_at_risk": 15,
+      "hap": 0,
+      "prac": 14,
+      "other_ra": 0,
+      "psh": 0,
+      "names": [
+        "Meadowlark"
+      ]
+    },
+    "no dated cliff": {
+      "properties": 3,
+      "units_at_risk": 39,
+      "hap": 0,
+      "prac": 0,
+      "other_ra": 10,
+      "psh": 0,
+      "names": [
+        "Housing Authority Units: Oregon City",
+        "South Leland",
+        "144 Molalla Ave"
+      ]
+    },
+    "no dated cliff \u2014 not in inventory": {
+      "properties": 1,
+      "units_at_risk": 84,
+      "hap": 0,
+      "prac": 0,
+      "other_ra": 0,
+      "psh": 0,
+      "names": [
+        "Barclay Hills"
+      ]
+    },
+    "no dated cliff \u2014 not in inventory (possible loss)": {
+      "properties": 1,
+      "units_at_risk": 125,
+      "hap": 0,
+      "prac": 0,
+      "other_ra": 0,
+      "psh": 0,
+      "names": [
+        "Newell Creek Apartments (now marketed as 'Stone Creek Apartments at Oregon City')"
+      ]
+    },
+    "pipeline / being preserved": {
+      "properties": 2,
+      "units_at_risk": 270,
+      "hap": 0,
+      "prac": 0,
+      "other_ra": 169,
+      "psh": 0,
+      "names": [
+        "Clackamas Heights (redevelopment)",
+        "Las Flores Apartments (fka Maple Apts)"
+      ]
+    }
+  },
+  "headline": {
+    "properties_total": 14,
+    "units_total": 1002,
+    "units_with_cliff_inside_36_months": 142,
+    "units_with_cliff_inside_36_months_note": "OCVM 100 + Our Apartment 4 + Rosewood 38; add Kingsberry 260 if the DERIVED 30-year reading holds",
+    "units_being_preserved": 371,
+    "units_unverified_program_status": 248
+  },
+  "book_verdict": "BOOK ABSENT \u2014 no OHCS servicing extract loaded; verdict not issued. Preservation targeting verdict for the city: STRESSED (one 100-unit public-housing disposition in motion, one 260-unit for-profit LIHTC block with an ambiguous end date, two LIHTC properties missing from the inventory)."
+}
