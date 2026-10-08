@@ -1,0 +1,5 @@
+# Direct dependencies verified for this candidate on Windows / Python 3.12.
+# This is not a hash-locked offline wheelhouse or a dependency vulnerability audit.
+pandas==3.0.1
+openpyxl==3.1.5
+PyYAML==6.0.3
